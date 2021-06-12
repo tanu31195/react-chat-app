@@ -34,7 +34,7 @@ const LoginForm = () => {
                 <form onSubmit={handleSubmit}>
                     <input className="input" type="text" value={username} onChange={(e) => setUsername(e.target.value)} placeholder="Username" required />
                     <input className="input" type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" required />
-                    <div>
+                    <div align="center">
                         <button type="submit" className="button">
                             <span>Login</span>
                         </button>
