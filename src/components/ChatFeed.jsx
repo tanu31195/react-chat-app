@@ -16,7 +16,7 @@ const ChatFeed = (props) => {
                     backgroundImage: `url(${person?.person?.avatar})`
                 }}
             />
-        ))
+        ));
     }
 
     const renderMessages = () => {
